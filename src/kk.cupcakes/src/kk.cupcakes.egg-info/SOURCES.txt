@@ -1,0 +1,15 @@
+README.txt
+setup.py
+src/kk/__init__.py
+src/kk.cupcakes.egg-info/PKG-INFO
+src/kk.cupcakes.egg-info/SOURCES.txt
+src/kk.cupcakes.egg-info/dependency_links.txt
+src/kk.cupcakes.egg-info/entry_points.txt
+src/kk.cupcakes.egg-info/namespace_packages.txt
+src/kk.cupcakes.egg-info/not-zip-safe
+src/kk.cupcakes.egg-info/requires.txt
+src/kk.cupcakes.egg-info/top_level.txt
+src/kk/cupcakes/__init__.py
+src/kk/cupcakes/testing.py
+src/kk/cupcakes/tests/__init__.py
+src/kk/cupcakes/tests/test_example.py
