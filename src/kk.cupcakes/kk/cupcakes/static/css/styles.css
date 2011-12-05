@@ -26,8 +26,8 @@ input{font-family:'News Cycle',sans-serif;}
 .rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}
 .roundedtop{-moz-border-radius:8px 8px 0px 0px;-webkit-border-radius:8px 8px 0px 0px;border-radius:8px 8px 0px 0px;}
 html,body{height:100%;}
-body{height:100%;background:url(../images/bg.gif) top center repeat-x #f9f9f9 !important;}
-body.section-front-page{height:100%;background:url(../images/top.gif) top center repeat-x #f9f9f9 !important;}
+body{height:100%;background:url(../images/bg.gif) top center repeat-x white !important;}
+body.section-front-page{height:100%;background:url(../images/bg.gif) top center repeat-x white !important;}
 #outer-wrapper{min-height:100%;height:auto !important;height:100%;margin:0px;background:transparent;width:100%;}
 #inner-wrapper{margin:0px auto;border:0px solid red;background:transparent;width:960px;padding:0px 0px 0px 0px;}
 *html #inner-wrapper{background:url(../images/top-left.gif) top right no-repeat transparent;}
