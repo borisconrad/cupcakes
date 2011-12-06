@@ -155,54 +155,55 @@ dl.error dd{background-color:#fdc;}
 #content dl.portalMessage dd{margin:0;}
 #content ul.formTabs{background-color:#ddd;border:0.3em solid #ddd;}
 #editbar-wrapper{width:960px;margin:0px auto 0px auto;border:0px solid red;}
-#editbar{background-color:transparent;border:0px;font-size:80%;min-height:2em;margin-bottom:1em;padding-top:0.05em;border:1px solid red !important;}
-#content-views{float:left;background-color:#333;font-size:70%;}
-#content-views a{color:white;}
-#editbar,#content ul.formTabs{display:block;border-style:solid solid none solid;margin-left:0;border-top-right-radius:0.5em;border-top-left-radius:0.5em;-webkit-border-top-right-radius:0.5em;-webkit-border-top-left-radius:0.5em;-moz-border-radius-topleft:0.5em;-moz-border-radius-topright:0.5em;}
+#edit-bar{background-color:#75AD0A;border:0.25em solid #75AD0A;font-size:80%;margin-bottom:1em;min-height:2em;padding-top:0.05em;}
+#content-views{background-color:#75AD0A;float:left;}
+#content-views a{color:White;}
+#edit-bar,#content ul.formTabs{border-style:solid solid none;border-top-left-radius:0.5em;border-top-right-radius:0.5em;display:block;margin-left:0;}
 #content li.formTab{display:inline;margin-right:0.25em;}
 #content-views a,#content li.formTab a{display:inline-block;}
-#content-views a,#content li.formTab a{line-height:2em;padding:0 0.75em;text-decoration:none;border:none;margin:0 ;}
+#content-views a,#content li.formTab a{border:medium none;line-height:2em;margin:0;padding:0 0.75em;text-decoration:none;}
 #content-views li.selected a,#content li.formTab a.selected{font-weight:bold;}
-#content-views li.selected a,#content-views li a:hover,#content li.formTab a.selected,#content li.formTab a:hover{background:White;color:Black;}
+#content-views li.selected a,#content-views li a:hover,#content li.formTab a.selected,#content li.formTab a:hover{background:none repeat scroll 0 0 White;color:Black;}
+#content-views li.selected a,#content-views li a:hover,#content li.formTab a.selected,#content li.formTab a:hover{border-top-left-radius:0.5em;border-top-right-radius:0.5em;}
 #content li.formTab a.notify{background-color:red;color:White;}
-#content li.formTab a.required span{background-image:url(required.png);background-position:center right;background-repeat:no-repeat;padding-right:1em;}
-#content fieldset.formPanel{border:none;}
+#content li.formTab a.required span{background-image:url("required.png");background-position:right center;background-repeat:no-repeat;padding-right:1em;}
+#content fieldset.formPanel{border:medium none;}
 #content fieldset.formPanel.hidden{display:none;}
 #content div.formControls input.hidden{display:none;}
 #portal-personaltools dt{font-weight:normal;}
 #portal-personaltools dt.actionMenuHeader a:after{content:" ▼";}
-#portal-personaltools dd{right:0;padding-top:0.5em;}
-#portal-personaltools dd{background:#e3e3e3;padding-bottom:0.5em;}
+#portal-personaltools dd{padding-top:0.5em;right:0;}
+#portal-personaltools dd{background:none repeat scroll 0 0 #E3E3E3;padding-bottom:0.5em;}
 #portal-personaltools dd a{line-height:2em;padding:0 0.75em;}
-#portal-personaltools dd a:hover{background:#6c675e;color:White;}
-#contentActionMenus dl.actionMenu a,#contentActionMenus dl.actionMenu.activated dd{background-color:#333;color:White;z-index:5;font-size:70%;}
-#contentActionMenus dl.actionMenu.activated dd{border-bottom:0.5em solid #333;right:-3px;}
-#contentActionMenus dl.actionMenu.activated dd a:hover,#contentActionMenus dl.actionMenu.activated dd .actionMenuSelected{background-color:White !important;color:#666;}
+#portal-personaltools dd a:hover{background:none repeat scroll 0 0 #205C90;color:White;}
+#contentActionMenus dl.actionMenu a,#contentActionMenus dl.actionMenu.activated dd{background-color:#75AD0A;color:White;z-index:5;}
+#contentActionMenus dl.actionMenu.activated dd{border-bottom:0.5em solid #75AD0A;right:-3px;}
+#contentActionMenus dl.actionMenu.activated dd a:hover,#contentActionMenus dl.actionMenu.activated dd .actionMenuSelected{background-color:White !important;color:#666666;}
 #contentActionMenus dl.actionMenu{line-height:2em;}
 #folderHeader,#contextHeader{border-bottom:2px solid white;}
 #contextHeader{margin-top:5px;}
-#contentActionMenus{float:right;background:black;margin:0;position:relative;top:-0.23em;right:-0.24em;padding:0.1em 0.24em 0 0;}
+#contentActionMenus{background:none repeat scroll 0 0 #75AD0A;border-radius:0 0.5em 0.5em 0.5em;float:right;margin:0;padding:0.1em 0.24em 0 0;position:relative;right:-0.24em;top:-0.23em;}
 .actionMenuContent{padding:0 0.25em;}
-dl.actionMenu{float:right;white-space:nowrap;position:relative;margin-left:0.5em;}
+dl.actionMenu{float:right;margin-left:0.5em;position:relative;white-space:nowrap;}
 dl.actionMenu a,dl.actionMenu div{display:block !important;white-space:nowrap;}
 dl.actionMenu dt{font-weight:normal;}
 span.arrowDownAlternative{font-size:80%;}
 dl.actionMenu.deactivated dt{margin:0 0.25em;}
 dl.actionMenu.deactivated dd{display:none;}
-dl.actionMenu.activated dd{position:absolute;width:auto;min-width:100%;border-bottom-right-radius:0.5em;border-bottom-left-radius:0.5em;-webkit-border-bottom-right-radius:0.5em;-webkit-border-bottom-left-radius:0.5em;-moz-border-radius-bottomleft:0.5em;-moz-border-radius-bottomright:0.5em;}
+dl.actionMenu.activated dd{border-bottom-left-radius:0.5em;border-bottom-right-radius:0.5em;min-width:100%;position:absolute;width:auto;}
 dl.actionMenu.activated dt a,dl.actionMenu.activated dd a,dl.actionMenu.activated dd div{margin:0 0.25em;}
 #setup-link{font-size:90%;}
-#content ul.configlets{margin:1em 0;list-style-image:none;list-style:none;}
-#content ul.configlets li{margin-bottom:1em;list-style:none;display:block;}
-#content ul.configlets li a{text-decoration:none;border:none;}
-#content ul.configlets li a:visited{color:#436976;background-color:transparent;}
-#content ul.configlets li a:active{color:#436976;background-color:transparent;}
+#content ul.configlets{list-style:none outside none;margin:1em 0;}
+#content ul.configlets li{display:block;list-style:none outside none;margin-bottom:1em;}
+#content ul.configlets li a{border:medium none;text-decoration:none;}
+#content ul.configlets li a:visited{background-color:transparent;color:#436976;}
+#content ul.configlets li a:active{background-color:transparent;color:#436976;}
 #content ul.configlets li label{font-weight:bold;}
-#content ul.configletDetails{margin:0em 1em 1em 4em;list-style-image:none;list-style:none;}
-#content ul.configletDetails li{margin-bottom:1em;display:inline;}
+#content ul.configletDetails{list-style:none outside none;margin:0 1em 1em 4em;}
+#content ul.configletDetails li{display:inline;margin-bottom:1em;}
 #content ul.configletDetails li a{text-decoration:none;}
 #content ul.configletDetails li label{font-weight:bold;}
-#content ul.configletDetails li.configletDescription{display:block;color:#76797c;margin:0;}
+#content ul.configletDetails li.configletDescription{color:#76797C;display:block;margin:0;}
 .inlineDisplay{display:inline;}
 table.controlpanel-listing{width:100%;}
 table.controlpanel-listing td,table.controlpanel-listing th{font-size:120%;}
@@ -212,19 +213,30 @@ table.controlpanel-listing dl dt a .trigger{font-weight:normal;}
 table .controlpanel-listing td{vertical-align:top;}
 table.controlpanel-listing td.checker{text-align:center;}
 table.controlpanel-listing th.smallcolumn{width:1.5em;}
-.chooser-right{float:right;margin-right:0;margin-bottom:0;}
-.rule-element{background-color:#EEF3F5;margin:0.5em 0pt 0.5em;padding:0.3em 1em 0.3em 1em;width:auto;}
+.chooser-right{float:right;margin-bottom:0;margin-right:0;}
+.rule-element{background-color:#EEF3F5;margin:0.5em 0;padding:0.3em 1em;width:auto;}
 .rule-element dl dd{margin-left:1em;}
 .rule-updown,.rule-operations{float:right;padding-top:0.8em;}
-.comment{margin-top:1.5em;font-size:80%;}
+dl.collapsible{border:0.1em solid #8CACBB;margin:1em 0;padding:0;}
+dl.collapsible dt.collapsibleHeader{background:none repeat scroll 0 0 White;display:block;float:left;font-size:90%;line-height:1.2em;margin:0 0 -0.6em 1em;padding:0 0.5em;position:relative;top:-0.6em;vertical-align:middle;width:auto;}
+dl.collapsible dd.collapsibleContent{clear:left;margin:0;padding:0 1em 0.4em;}
+dl.collapsible dd.collapsibleContent>dl{margin:0;padding:0;}
+dl.expandedInlineCollapsible dt.collapsibleHeader,dl.expandedBlockCollapsible dt.collapsibleHeader{background:url("treeExpanded.png") no-repeat scroll 0.5em 50% White;cursor:pointer;padding:0 0.5em 0 2em;}
+dl.collapsedBlockCollapsible{border:medium none;height:1em;width:auto;}
+dl.collapsedInlineCollapsible dt.collapsibleHeader,dl.collapsedBlockCollapsible dt.collapsibleHeader{background:url("treeCollapsed.png") no-repeat scroll 0.5em 50% White;cursor:pointer;float:none;line-height:1.2em;margin:0 0 0 1em;padding:0 0.5em 0 2em;position:relative;}
+dl.collapsedInlineCollapsible dd.collapsibleContent,dl.collapsedBlockCollapsible dd.collapsibleContent{display:none;}
+dl.collapsedInlineCollapsible{border:medium none;display:inline;height:1em;width:auto;}
+dl.collapsedInlineCollapsible dt.collapsibleHeader{cursor:pointer;display:inline;float:none;line-height:1em;margin:0;padding:0 0 0 2em;position:static;}
+.comment{font-size:80%;margin-top:1.5em;}
 .comment .documentByLine{margin-left:1em;}
 .comment .formControls{margin-left:0;}
-.commentTime{color:#666;}
-.commentBody{padding:1em;margin:0.5em 0;border-radius:0.5em;-webkit-border-radius:0.5em;-moz-border-radius:0.5em;box-shadow:0 0 1em 0 #888;-moz-box-shadow:0 0 0.5em 0 #888;-webkit-box-shadow:0 0 0.5em #888;}
+.commentTime{color:#666666;}
+.commentBody{border-radius:0.5em 0.5em 0.5em 0.5em;box-shadow:0 0 0.5em 0 #888888;margin:0.5em 0;padding:1em;}
 .comment h1,.comment h2,.comment h3,.comment h4,.comment h5,.comment h6{font-weight:normal;}
-.reviewHistory,.contentHistory{display:inline;color:Black;}
+.reviewHistory,.contentHistory{color:Black;display:inline;}
 .spacer{margin:1em;}
-.label{font-weight:bold;display:inline;padding-right:0.5em;}
+.label{display:inline;font-weight:bold;padding-right:0.5em;}
+.optionsToggle{background-color:#DEE7EC;border:0.1em solid #8CACBB;color:Black;font-size:90%;font-weight:normal;}
 .optionsToggle{border:0.1em solid #8cacbb;color:Black;background-color:#dee7ec;font-weight:normal;font-size:90%;}
 .highlightedSearchTerm{background-color:#ffa;}
 dl.searchResults .highlightedSearchTerm{background-color:transparent;font-weight:bold;}
