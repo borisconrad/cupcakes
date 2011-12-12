@@ -29,14 +29,13 @@ body{height:100%;background:url(../images/bg.gif) 0px -440px repeat-x white !imp
 body.section-front-page{height:100%;background:url(../images/bg.gif) top center repeat-x white !important;}
 #outer-wrapper{min-height:100%;height:auto !important;height:100%;margin:0px;background:transparent;width:100%;}
 #inner-wrapper{margin:0px auto;border:0px solid red;background:transparent;width:960px;padding:0px 0px 0px 0px;}
-*html #inner-wrapper{background:url(../images/top-left.gif) top right no-repeat transparent;}
-#top-wrapper{background:transparent;width:100%;position:fixed;z-index:100000;}
-#header-wrapper{margin:0px auto !important;border:0px solid red;background:transparent;width:960px;height:50px;}
+#top-wrapper{background:transparent;width:960px;z-index:100000;margin:0px auto;}
+#header-wrapper{margin:0px auto !important;border:0px solid red;background:transparent;height:50px;}
 #content-wrapper{margin:0px auto;width:960px;border:0px solid red;padding:0px;}
 #main-content{border:0px solid red;}
 #header{width:960px;}
 #header a{color:#fff;}
-#logo{background:url(../images/logo.png) 0px 0px no-repeat transparent;margin:0px 0px 0px 0px;width:190px;height:50px;display:block;text-indent:-3000px;overflow:hidden;border:0px solid red;float:left;}
+#logo{background:url(../images/logo.png) 0px 0px no-repeat transparent;margin:0px 0px 0px 0px;width:288px;height:93px;display:block;text-indent:-3000px;overflow:hidden;border:0px solid red;float:left;}
 .section-front-page #logo{display:none;}
 #actions{border:0px solid red;}
 #actions a{color:black;font-size:80%;margin:0px 20px 0px 0px;}
@@ -317,8 +316,8 @@ div.overlay .formControls a{display:block;margin:0.75em;}
 #content-history a.historyComparePrevious span{background-color:white;position:relative;top:-0.75em;padding:0 0.5em;}
 .documentAuthor a{color:white !important;}
 #footer-wrapper{height:250px;width:100%;margin:0px auto 0px auto;display:block;background:#e4e4e4 url(../images/footer.gif) top left repeat-x;padding:40px 0px 0px 0px;}
-#footer{color:black;width:960px;margin:0px;padding:0px;margin:0px auto 0px auto;text-align:left;height:50px;background:transparent url(../images/logo.png) top left no-repeat;}
-#copyright{padding:50px 0px 0px 0px;background:transparent;font-size:55%;margin:0px 0px 0px 0px;text-align:left;text-transform:uppercase;}
+#footer{color:black;width:960px;margin:0px;padding:0px;margin:0px auto 0px auto;text-align:left;height:90px;background:transparent url(../images/logo.png) top left no-repeat;}
+#copyright{padding:100px 0px 0px 0px;background:transparent;font-size:55%;margin:0px 0px 0px 0px;text-align:left;text-transform:uppercase;}
 .hiddenStructure{display:none;background:transparent;background-image:none;border:none;height:1px;overflow:hidden;padding:0;margin:-1px 0 0 -1px;width:1px;}
 .visualClear{clear:both;}
 .carousel{height:429px;width:960px;margin:0px 0px 20px 0px !important;padding:0px;}
