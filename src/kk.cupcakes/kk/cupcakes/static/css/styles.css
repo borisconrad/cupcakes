@@ -298,7 +298,7 @@ div.overlaybg div.close,div.overlay div.close{background-image:url(../images/pb_
 .documentAuthor a{color:white !important;}
 #footer-wrapper{height:250px;width:100%;margin:0px auto 0px auto;display:block;background:#e4e4e4 url(../images/footer.gif) top left repeat-x;padding:40px 0px 0px 0px;}
 #footer{color:black;width:960px;margin:0px;padding:0px;margin:0px auto 0px auto;text-align:left;height:90px;background:transparent url(../images/logo.png) top left no-repeat;}
-#copyright{padding:100px 0px 0px 0px;background:transparent;font-size:55%;margin:0px 0px 0px 0px;text-align:left;text-transform:uppercase;}
+#copyright{padding:45px 0px 0px 310px;background:transparent;font-size:55%;margin:0px 0px 0px 0px;text-align:left;text-transform:uppercase;}
 .hiddenStructure{display:none;background:transparent;background-image:none;border:none;height:1px;overflow:hidden;padding:0;margin:-1px 0 0 -1px;width:1px;}
 .visualClear{clear:both;}
 .carousel{height:429px;width:960px;margin:0px 0px 20px 0px !important;padding:0px;}
