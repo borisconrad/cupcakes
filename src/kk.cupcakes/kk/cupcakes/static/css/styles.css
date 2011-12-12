@@ -247,10 +247,10 @@ dl.searchResults .highlightedSearchTerm{background-color:transparent;font-weight
 .currentItem{border-collapse:collapse;border:0.2em solid #ffa500;padding:0.1em;}
 form.searchPage{text-align:center;}
 input.searchPage{font-size:200% !important;}
-.image-left{float:left;clear:both;margin:0.5em 1em 0.5em 0;}
+.image-left{float:left;clear:both;margin:0.5em 1em 0.5em 0;padding:10px;}
 .image-right{float:right;clear:both;margin:0.5em;}
 .image-inline{float:none;}
-img.image-left,img.image-right,.captioned img{border:1px solid #ddd;}
+img.image-left,img.image-right,.captioned img{border:1px solid #eee;}
 dd.image-caption{text-align:left;padding:0 0 0 3px;margin:0;color:#666;font-size:85%;}
 fieldset,.editionComment{line-height:1.5em;margin:1em 0;padding:0 1em 1em;width:auto;}
 #content .field input[type="text"][name$=".title"],#archetypes-fieldname-title input{line-height:125%;color:Black;letter-spacing:-0.05em;margin:inherit -0.05em;font-size:2em;font-weight:bold;}
@@ -306,7 +306,7 @@ div.overlaybg div.close,div.overlay div.close{background-image:url(../images/pb_
 .carousel-pager-item{border:0px solid red;margin:0px 0px 0px 4px !important;padding:2px 5px 2px 5px !important;float:left;text-align:center;font-size:40% !important;text-decoration:none !important;}
 .carousel-pager-item-active{background:#6c675e !important;}
 .carousel-pager-item-active a:link,.carousel-pager-item-active a:visited,.carousel-pager-item-active .carousel-title{color:white !important;}
-p.plonetruegallery a img{border:1px dotted #CCCCCC;margin:10px 5px 10px 0;padding:19px;}
+p.plonetruegallery a img{border:1px dotted #CCCCCC;margin:10px 5px 10px 0;padding:10px !important;}
 .portlet{margin:0px 0px 10px 0px;border-bottom:0px;background:transparent !important;border:0px solid black;padding:0px;color:#333333 !important;}
 .portlet a{text-decoration:none;color:black;font-weight:normal;font-size:85%;}
 .portlet a.tile{display:block;color:black;font-weight:bold;font-size:100%;}
