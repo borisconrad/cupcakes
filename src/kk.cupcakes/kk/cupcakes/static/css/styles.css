@@ -24,6 +24,7 @@ a:focus img{outline:thin dotted;}
 dt{font-weight:bold;}
 .rounded{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}
 .roundedtop{-moz-border-radius:8px 8px 0px 0px;-webkit-border-radius:8px 8px 0px 0px;border-radius:8px 8px 0px 0px;}
+input{border:1px solid #ccc;height:20px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
 html,body{height:100%;}
 body{height:100%;background:url(../images/bg.gif) 0px -440px repeat-x white !important;}
 body.section-front-page{height:100%;background:url(../images/bg.gif) top center repeat-x white !important;}
@@ -60,7 +61,7 @@ body.section-front-page{height:100%;background:url(../images/bg.gif) top center 
 #sidebar-header h3{font-size:0.8em;color:#444;font-weight:normal;}
 .splashBox{border:1px solid #eee;background:#eee;padding:5px;margin-bottom:5px;}
 .splashBoxContent{border:1px solid #ddd;background:white;padding:5px;}
-#content{line-height:1.5em;float:left;font-size:80%;margin:-90px 0px 0px 0px;border:0px solid black;width:60% !important;background:transparent;padding:0px !important;}
+#content{line-height:1.5em;float:left;font-size:80%;margin:0px 0px 0px 0px;border:0px solid black;width:60% !important;background:transparent;padding:0px !important;}
 #sidebar-left{border:0px solid blue;margin:0px 40px 0px 0px;font-size:80%;line-height:1.5em;width:30%;padding:40px 20px 20px 20px;float:left;background:url("../images/footer.gif") repeat-x scroll left top #e4e4e4;}
 .social{border:0px solid red;margin:0px 0px 10px 0px;height:50px;width:40%;}
 .fb a:link{background:transparent url(../images/social.png) 0px 0px no-repeat;text-indent:-9999px !important;display:block;float:left;width:50px;height:50px;}
@@ -78,7 +79,7 @@ body.section-front-page{height:100%;background:url(../images/bg.gif) top center 
 .section-pictures #sidebar{display:none;}
 .section-front-page #sidebar{border:0px solid blue;margin:16px 0px 0px 0px;font-size:80%;line-height:1.5em;float:left;width:300px;padding:0px;}
 body#content{margin:1em;}
-.documentFirstHeading{margin:50px 0px 15px 0px !important;color:#7d1913;font-weight:bold;text-transform:none;font-size:180% !important;}
+.documentFirstHeading{margin:0px 0px 15px 0px !important;color:#7d1913;font-weight:bold;text-transform:none;font-size:180% !important;}
 .section-pictures h1{margin:50px 0px 50px 0px !important;}
 #content p,#content table,#content dl,dl.portlet p,dl.portlet{margin-bottom:1em;}
 #content a:link,dl.portlet a:link{color:#6c675e;}
@@ -253,9 +254,9 @@ fieldset,.editionComment{line-height:1.5em;margin:1em 0;padding:0 1em 1em;width:
 #content .field textarea[name$=".description"],#archetypes-fieldname-description textarea#description{color:#666666;font-size:1.25em;font-weight:bold;}
 div.formControls{margin:1em;}
 input[type="text"]:focus,input[type="password"]:focus,textarea:focus{background-color:#ffffe0;}
-#content textarea{font:100% Monaco,"Courier New",Courier,monospace;width:100%;}
+#content textarea{font:100% Monaco,"Courier New",Courier,monospace;width:100%;border:1px solid #ccc;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
 #content select{vertical-align:top;}
-#content fieldset{border:1px dotted #cccccc;}
+#content fieldset{border:1px solid #ccc;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
 #content legend{padding:0.5em;font-size:85%;}
 label{font-weight:bold;}
 #content optgroup{font-style:normal;font-weight:bold;color:#999;padding-left:0.25em;}
