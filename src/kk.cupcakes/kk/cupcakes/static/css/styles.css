@@ -238,7 +238,7 @@ dl.collapsedInlineCollapsible dt.collapsibleHeader{cursor:pointer;display:inline
 .spacer{margin:1em;}
 .label{display:inline;font-weight:bold;padding-right:0.5em;}
 .dialog-wrapper fieldset{margin-top:50px !important;}
-div.pp_default .pp_description{font-size:11px;font-weight:bold;line-height:14px;margin:5px 50px 5px 10px;}
+div.pp_default .pp_description{font-size:11px;font-weight:bold;line-height:14px;margin:5px 50px 5px 10px !important;}
 .optionsToggle{background-color:#DEE7EC;border:0.1em solid #8CACBB;color:Black;font-size:90%;font-weight:normal;}
 .optionsToggle{border:0.1em solid #8cacbb;color:Black;background-color:#dee7ec;font-weight:normal;font-size:90%;}
 .highlightedSearchTerm{background-color:#ffa;}
