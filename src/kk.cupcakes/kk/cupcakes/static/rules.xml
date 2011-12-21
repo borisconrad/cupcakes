@@ -28,7 +28,7 @@
         
 
             <after theme-children="/html/head">
-                <link rel="shortcut icon" href="/++theme++kk.discipline/images/favicon.ico" type="image/x-icon" />
+                <link rel="shortcut icon" href="/++theme++kk.cupcakes/images/favicon.ico" type="image/x-icon" />
             </after>
         
         <!-- Copy over the id/class attributes on the body tag.
